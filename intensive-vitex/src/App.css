@@ -1,0 +1,120 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 140px;
+
+}
+
+#root {
+    display: flex;
+}
+
+.community {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 8px 12px hsl(0, 10%, 80%, 0.4);
+    background-color: hsl(0, 0 , 100%);
+    background-color: rgba(255, 255, 255, 0.87);
+}  
+.community h1 {
+    color: #2bb4b1;
+    padding: 30px 30px 0 30px;
+    font-size: 23px;
+    line-height: 1.1;
+}
+
+.parrafo-1 {
+    margin: 0 0 40px 0;
+}
+.parrafo-1 p {
+    margin: 0;
+    padding: 2px 79px 2px 27px;
+
+}
+h2{
+    font-size: 18px;
+    padding: 0 27px;
+    color: hsl(71, 73%,54%);
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.valor {
+    background-color: #2bb4b1;
+    font-size: large;
+    width: 50%;
+    color: #f4f4f4;
+    padding: 27px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 30px;
+    margin: 0;
+    width: 30%;
+}
+
+.precio {
+    display: flex;
+    align-items: center;
+}
+
+.precio p {
+    font-size: 15px;
+    margin: 0 0 25px 0;
+}
+
+button {
+    width: 100%;
+    background-color: chartreuse;
+}
+
+.menu-list {
+    width: 50%;
+    background-color: #49bebd;
+    color: #f4f4f4;
+    padding: 27px;
+}
+
+ul {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+}
+
+
+
+@media (max-width: 1024px){
+    .content-2 {
+       flex-direction: column;
+       align-items: stretch;
+       width: 490px;
+       button {
+       background-color: hsl(71deg 89.58% 47.84%);
+    }
+
+    }
+    .community {
+       width: 300px;
+    }
+    .valor p {
+        font-size: 17px;
+    }
+    a {
+        color: #c5c6d5;
+
+    }
+
+}
